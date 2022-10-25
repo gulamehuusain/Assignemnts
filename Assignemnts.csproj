@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7987210A-1F44-49F5-A081-58CC50D8176D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Assignemnts</RootNamespace>
+    <AssemblyName>Assignemnts</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE.Designer.cs">
+      <DependentUpon>BCE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="carprice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carprice.Designer.cs">
+      <DependentUpon>carprice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="compares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="compares.Designer.cs">
+      <DependentUpon>compares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="counting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="counting.Designer.cs">
+      <DependentUpon>counting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="drawing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drawing.Designer.cs">
+      <DependentUpon>drawing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drw.Designer.cs">
+      <DependentUpon>drw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exam.Designer.cs">
+      <DependentUpon>exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="generic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="generic.Designer.cs">
+      <DependentUpon>generic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="icbt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="icbt.Designer.cs">
+      <DependentUpon>icbt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iconbutton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iconbutton.Designer.cs">
+      <DependentUpon>iconbutton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lettercount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lettercount.Designer.cs">
+      <DependentUpon>lettercount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="linqsql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linqsql.Designer.cs">
+      <DependentUpon>linqsql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="movingbutton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movingbutton.Designer.cs">
+      <DependentUpon>movingbutton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multiplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplayer.Designer.cs">
+      <DependentUpon>multiplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pancol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pancol.Designer.cs">
+      <DependentUpon>pancol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selfiles.Designer.cs">
+      <DependentUpon>selfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="singleplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="singleplayer.Designer.cs">
+      <DependentUpon>singleplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tabs.Designer.cs">
+      <DependentUpon>tabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tiktakto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tiktakto.Designer.cs">
+      <DependentUpon>tiktakto.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BCE.resx">
+      <DependentUpon>BCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carprice.resx">
+      <DependentUpon>carprice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="compares.resx">
+      <DependentUpon>compares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="counting.resx">
+      <DependentUpon>counting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drawing.resx">
+      <DependentUpon>drawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drw.resx">
+      <DependentUpon>drw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exam.resx">
+      <DependentUpon>exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="generic.resx">
+      <DependentUpon>generic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icbt.resx">
+      <DependentUpon>icbt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iconbutton.resx">
+      <DependentUpon>iconbutton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lettercount.resx">
+      <DependentUpon>lettercount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linqsql.resx">
+      <DependentUpon>linqsql.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movingbutton.resx">
+      <DependentUpon>movingbutton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplayer.resx">
+      <DependentUpon>multiplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pancol.resx">
+      <DependentUpon>pancol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="selfiles.resx">
+      <DependentUpon>selfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="singleplayer.resx">
+      <DependentUpon>singleplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tabs.resx">
+      <DependentUpon>tabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tiktakto.resx">
+      <DependentUpon>tiktakto.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XMLFile3.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

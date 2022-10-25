@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Projects" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-8FP6RMR;Initial Catalog=Projects;Integrated Security=True" SettingsObjectName="Assignemnts.Properties.Settings" SettingsPropertyName="ProjectsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.datas" Member="datas">
+    <Type Name="datas">
+      <Column Name="Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Passwords" Type="System.String" DbType="VarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.stdinfo" Member="stdinfos">
+    <Type Name="stdinfo">
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Roll no]" Member="Roll_no" Type="System.String" DbType="VarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="class" Member="Class" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
